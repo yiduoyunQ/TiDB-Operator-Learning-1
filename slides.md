@@ -46,7 +46,7 @@ figureUrl: https://kubernetes.io/images/docs/components-of-kubernetes.svg
 ---
 layout: figure
 figureCaption: Node (physical or virtual)
-figureUrl: ./img/node_and_pod.png
+figureUrl: /node_and_pod.png
 ---
 
 # Node and Pod
@@ -76,7 +76,7 @@ figureUrl: https://kubernetes.io/images/docs/scheduling-framework-extensions.png
 ---
 layout: figure
 figureCaption: 
-figureUrl: img/kube-controller.png
+figureUrl: /kube-controller.png
 ---
 
 # Kube-Controller
@@ -122,7 +122,7 @@ figureUrl: https://download.pingcap.com/images/docs/tidb-architecture-v6.png
 ---
 layout: figure
 figureCaption: TiDB Operator Architecture
-figureUrl: img/tidb-operator-overview.jpeg
+figureUrl: /tidb-operator-overview.jpeg
 ---
 
 # TiDB-Operator Introduction
