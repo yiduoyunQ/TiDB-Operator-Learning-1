@@ -76,7 +76,7 @@ figureUrl: https://kubernetes.io/images/docs/scheduling-framework-extensions.png
 ---
 layout: figure
 figureCaption: 
-figureUrl: ./img/kube-controller.png
+figureUrl: img/kube-controller.png
 ---
 
 # Kube-Controller
@@ -122,7 +122,7 @@ figureUrl: https://download.pingcap.com/images/docs/tidb-architecture-v6.png
 ---
 layout: figure
 figureCaption: TiDB Operator Architecture
-figureUrl: ./img/tidb-operator-overview.jpeg
+figureUrl: img/tidb-operator-overview.jpeg
 ---
 
 # TiDB-Operator Introduction
