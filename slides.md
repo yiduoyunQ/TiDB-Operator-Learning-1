@@ -85,7 +85,7 @@ cgset -r cpu.cfs_period_us=1000000 $UUID
 cgset -r cpu.cfs_quota_us=2000000 $UUID
 
 $ cgexec -g cpu,memory:$UUID \
->     unshare -uinpUrf --mount-proc \
+>     unshare --uts --ipc --net \
 >     sh
 sh-4.2# echo "Hello from in a container"
 Hello from in a container
