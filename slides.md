@@ -17,10 +17,10 @@ titleTemplate: '%s • Jirong Qiu'
 - Kubernetes Introduction
   - Historical context for Kubernetes
   - Kubernetes Components
-  - Node and Pod
-  - **Container Runtime**
   - Kube-Scheduler
   - Kube-Controller
+  - Node and Pod
+  - **Container Runtime**
   - **Logging Architecture**
 - TiDB-Operator Introduction
 
@@ -39,6 +39,30 @@ figureUrl: https://kubernetes.io/images/docs/components-of-kubernetes.svg
 ---
 
 # [Kubernetes Components](https://kubernetes.io/docs/concepts/overview/components/)
+
+---
+layout: figure
+figureCaption: Scheduling in Kubernetes
+figureUrl: https://kubernetes.io/blog/2023/01/12/protect-mission-critical-pods-priorityclass/kube-scheduler.svg
+---
+
+# [Kube-Scheduler](https://kubernetes.io/blog/2023/01/12/protect-mission-critical-pods-priorityclass/)
+
+---
+layout: figure
+figureCaption: scheduling context of a Pod
+figureUrl: https://kubernetes.io/images/docs/scheduling-framework-extensions.png
+---
+
+# [Kube-Scheduler](https://kubernetes.io/docs/concepts/scheduling-eviction/scheduling-framework/)
+
+---
+layout: figure
+figureCaption: 
+figureUrl: /kube-controller.png
+---
+
+# [Kube-Controller](https://kubernetes.io/docs/reference/command-line-tools-reference/kube-controller-manager/)
 
 ---
 layout: figure
@@ -222,30 +246,6 @@ figureUrl: https://docs.docker.com/engine/storage/drivers/images/overlay_constru
 ---
 
 # [Container Runtime](https://docs.docker.com/engine/storage/drivers/overlayfs-driver/)
-
----
-layout: figure
-figureCaption: Scheduling in Kubernetes
-figureUrl: https://kubernetes.io/blog/2023/01/12/protect-mission-critical-pods-priorityclass/kube-scheduler.svg
----
-
-# [Kube-Scheduler](https://kubernetes.io/blog/2023/01/12/protect-mission-critical-pods-priorityclass/)
-
----
-layout: figure
-figureCaption: scheduling context of a Pod
-figureUrl: https://kubernetes.io/images/docs/scheduling-framework-extensions.png
----
-
-# [Kube-Scheduler](https://kubernetes.io/docs/concepts/scheduling-eviction/scheduling-framework/)
-
----
-layout: figure
-figureCaption: 
-figureUrl: /kube-controller.png
----
-
-# [Kube-Controller](https://kubernetes.io/docs/reference/command-line-tools-reference/kube-controller-manager/)
 
 ---
 layout: figure
