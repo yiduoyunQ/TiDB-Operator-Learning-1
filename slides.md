@@ -17,6 +17,7 @@ titleTemplate: '%s • Jirong Qiu'
 - Kubernetes Introduction
   - Historical context for Kubernetes
   - Kubernetes Components
+  - Kube-Apiserver
   - Kube-Scheduler
   - Kube-Controller
   - Node and Pod
@@ -39,6 +40,14 @@ figureUrl: https://kubernetes.io/images/docs/components-of-kubernetes.svg
 ---
 
 # [Kubernetes Components](https://kubernetes.io/docs/concepts/overview/components/)
+
+---
+layout: figure
+figureCaption: Custom pod scheduling using admission webhook
+figureUrl: /API-Request-Lifecycle.jpg
+---
+
+# [Kube-Apiserver](https://aws.amazon.com/cn/blogs/containers/customizing-scheduling-on-amazon-eks/)
 
 ---
 layout: figure
